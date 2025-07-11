@@ -2,7 +2,8 @@ SELECT
     Student.FIRST_NAME,
     Student.LAST_NAME,
     Scholarship.SCHOLARSHIP_AMOUNT,
-    Scholarship.SCHOLARSHIP_DATE
+    Scholarship.SCHOLARSHIP_DATE,
+    Scholarship.FATHER_NAME
 FROM 
     Student
 INNER JOIN 
