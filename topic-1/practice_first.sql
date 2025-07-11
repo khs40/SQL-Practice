@@ -3,7 +3,8 @@ SELECT
     Student.LAST_NAME,
     Scholarship.SCHOLARSHIP_AMOUNT,
     Scholarship.SCHOLARSHIP_DATE,
-    Scholarship.FATHER_NAME
+    Scholarship.FATHER_NAME,
+    Scholarship.MOTHER_NAME
 FROM 
     Student
 INNER JOIN 
